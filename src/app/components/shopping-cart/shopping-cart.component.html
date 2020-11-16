@@ -1,0 +1,35 @@
+<div>
+  <a routerLink='/'>
+    <img src="sowingo_logo.png" class="logo">
+  </a>
+
+    
+  </div>
+  
+  <div class="navbar">
+    <div class="searchborder">
+      <div class="searchborder">
+        <span class="search"></span>
+      </div>
+    </div>
+    <div class="cursorchange">
+      <a routerLink='/favorites'>
+        <img src="heartfilled.png">
+        <span><b> Favorites</b></span>
+      </a>
+    </div>
+    <div class="pos">
+      <a routerLink='/shoppingcart'>
+        <img src="button_cart.png">
+        <span class="circle">{{count}}</span>
+        <span ><b>Cart</b></span>
+      </a>
+    </div>
+    <div></div>
+  </div>
+  <br>
+  <h2 class="promo">Products in your Cart <span><button class='btn btn-primary' (click)='clear()'>Clear the cart</button></span></h2>
+  <br>
+  
+  <productdisplay [productsToDisplay]="products"></productdisplay>
+  <br>

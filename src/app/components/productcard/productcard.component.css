@@ -1,0 +1,73 @@
+.cardborder {
+   
+    max-width: 267px;
+    height: 423px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #CAD2D8;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.cardimage{
+    width: 200px;
+    height: 200px;
+
+    margin:auto;
+}
+
+.separatorline{
+    height: 1px;
+
+    background: #CAD2D8;
+}
+.card-body{
+  
+    text-align:right;
+}
+
+.cardtitle{
+    height: 48px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    text-align:left;
+
+    color: #4E6374;
+}
+
+.pricetag{
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+ 
+    color: #4E6374;
+}
+
+.price{
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #4E6374;
+}
+
+.figmabutton{
+    width: 115px;
+    height: 40px;
+
+    margin-left: 15px;
+    font-size:14px;
+    background: #398DE3;
+    border-radius: 6px;
+}

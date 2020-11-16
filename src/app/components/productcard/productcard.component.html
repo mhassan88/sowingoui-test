@@ -1,0 +1,18 @@
+<div>
+      <div class="cardborder">
+        <div class="cardimage">
+           <img class="cardimage" [src]="product.images[0].image" alt="Product Image is not provided">
+        </div>
+        
+        <hr class="separatorline">
+          <div class="card-body">
+              <div class="cardtitle">{{product.subcategory.name}}</div>
+              <div class="pricetag">Your Price<span class="price"> ${{product.vendor_inventory[0].list_price}}</span></div>
+              <br>
+              <div>
+                    <favorite [isFavorite]="isFavorite" (onFavoriteIconClicked)="onFavoriteIconClicked($event)"></favorite>
+                    <button class="btn btn-primary figmabutton" [disabled]="isInCart" (click)="onAddToCart()">{{buttonText}}</button>
+              </div>
+          </div>
+      </div>
+</div>
