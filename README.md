@@ -1,4 +1,9 @@
 # Sowingoui
+Sowingo Front-end interview test - Muhammad Hassan
+
+Following is the GitHub link to the repo:
+
+https://github.com/mhassan88/sowingoui-test
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
