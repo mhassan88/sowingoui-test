@@ -17,6 +17,8 @@ Run `npm start` or `ng serve` to spin up the local server.
 
 Navigate to `http://localhost:4200/`. 
 
+Click on Sowingo logo at top-left corner to go back to home screen from cart or favorites view.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
